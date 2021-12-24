@@ -1,0 +1,20 @@
+<div class="container bg-light py-5 mt-5">
+     <h1 class = "display-5 fw-bold">Welcome to Quiz App</h1>
+     <p class="col-md-8 fs-4">This Quiz will have 9 Question. Each question holds 10 points.</p>
+     <h4>Rules</h4>
+     <ol>
+         <li>Correct question will give you 10 points.</li>
+         <li>Incorrect question will give you -10 points</li>
+         <li>You will get 10 seconds for each question.</li>
+         <li>Refreshing the page will reset the quiz.</li>
+     </ol>
+     <h2 style="text-align: center;">All the Best !!!!!</h2>
+ 
+    <div class="form-group">
+        <label>Enter Your Name</label>
+        <input #name style="width: 500px;" type="text" class="form-control">
+    </div>
+
+    <button style="margin-top: 20px;" type = "submit" class = "btn btn-primary" routerLink = '/question' (click) = "startQuiz()">Start Quiz</button>
+
+</div>
